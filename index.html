@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Togo Analytics</title>
+    <link rel="icon" type="image/png" href="IconoWeb/iconw2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-image: url('Backgrounds/Background_Home.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* Opcional: Añade un color de fondo en caso de que la imagen no se cargue o se extienda más allá del contenido */
+            background-color: #f0f0f0;
+            font-family: Roboto;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            color:#f0f0f0
+        }
+        /* Estilos para la sección dividida en columnas */
+        .column-container {
+            display: flex;
+            flex-direction: row; /* Establecemos la dirección horizontal (fila) */
+        }
+        .column {
+            flex: 1; /* Todas las columnas tendrán el mismo ancho */
+            margin: 10px; /* Espacio entre las columnas */
+        }
+        .column2 {
+            flex: 2; /* Todas las columnas tendrán el mismo ancho */
+            margin: 10px; /* Espacio entre las columnas */
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        header img {
+            width: 200px; /* Ajusta el ancho según tus necesidades */
+            height: 50px; /* Ajusta el alto según tus necesidades */
+            border-radius:  0%; /* Opcional: Agregar bordes redondeados a la imagen */
+            ; 
+        }
+        h1 {
+            margin: 0.5;
+            font-family: Segoe EU, sans-serif;
+        }
+        nav {
+            background-color: #000000;
+            padding: 0.5rem;
+            text-align: left;
+            align-items: center;
+        }
+        nav a {
+            color: #fefefe;
+            text-align: center;
+            margin: 2rem;            
+        }
+        section {
+            padding: 0.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .social-icons-container {
+            display: flex; /* Crea un flex container */
+            justify-content: center; /* Centra los íconos horizontalmente */
+        }
+        /* Estilos para los íconos */
+        .social-icon {
+            color: #fff; /* Color de los íconos */
+            font-size: 24px; /* Tamaño de fuente de los íconos */
+            margin: 0 15px; /* Espaciado horizontal entre los íconos */
+        }
+        .container {
+            max-width: 700px; /* Ancho máximo del contenedor */
+            padding: 20px;
+            column-count: 1; /* Divide el contenido en 2 columnas */
+        }
+
+        /* Estilos para el párrafo */
+        .paragraph {
+            text-align: left; /* Alinea el texto a la izquierda */
+            font-size: 20px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="column-container">
+                <div class="column">
+                    <!-- Contenido de la columna 1 -->
+                    <a href="https://facebook.com">
+                        <img src="IconoWeb/Togo_Analytics_1.png" alt="">
+                    </a>
+                </div>
+                <div class="column2">
+                    <!-- Contenido de la columna 2 -->
+                    <a href="#inicio">Inicio</a>
+                    <a href="#about">Acerca de mí</a>
+                    <a href="#service">Servicios</a>
+                    <a href="#portafolio">Portafolio</a>
+                    <a href="#resume">Resumen</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+            </div> 
+        </nav>
+        <!-- Sección de Header-->
+        <p>¡Bienvenido!</p>
+        <h1>Soy Ingeniero Industrial</h1>
+        <p>ANALISTA DE DATOS • CONTROL DE CALIDAD • PRODUCTIVIDAD</p>
+        <section id="social-icon">
+            <ul>
+                <a href="https://www.linkedin.com/in/jhonas-tg" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/jhonastg" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/jhonas.tg/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/+573244484349" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                <!-- Agrega más redes sociales según tus preferencias -->
+            </ul>
+        </section>
+    </header>
+    <section id="about">
+        <p>Mi nombre es Jonatan Torres</p>
+        <h2>Soy profesional en Ingeniería Industrial con 4 años de experiencia</h2>
+        <div class="container">
+            <!-- Contenido de la columna -->
+            <p class="paragraph">
+                con énfasis en análisis de datos y una sólida experiencia laboral en diversas áreas,
+                incluyendo el ámbito comercial, procesos, consolidación y creación de bases de datos e
+                informes de indicadores clave de rendimiento (KPI).
+
+                Mi enfoque principal se centra en el análisis de datos para extraer
+                información estratégica y tomar decisiones fundamentadas.
+            </p>
+    </section>
+    <section id="information">
+        <h2>Nombre :</h2>
+        <h2>Dirección :</h2>
+        <h2>Número de teléfono :</h2>
+        <h2>Email :</h2>
+    </section>
+    <footer>
+        <p>Derechos reservados &copy; 2023 Jonatan Torres González</p>
+    </footer>
+</body>
+</html>
